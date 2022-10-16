@@ -1,0 +1,44 @@
+{
+	"name": "remix-form-library",
+	"version": "0.0.1",
+	"sideEffects": false,
+	"main": "./build/index.js",
+	"scripts": {
+		"test": "vitest",
+		"build": "tsc --project tsconfig.json --module CommonJS --outDir ./build"
+	},
+	"peerDependencies": {
+		"@remix-run/react": "^1.1.1",
+		"zod": "^3.11.6",
+		"react": "^18.0.0"
+	},
+	"devDependencies": {
+		"@remix-run/dev": "^1.7.2",
+		"@remix-run/eslint-config": "^1.7.2",
+		"@testing-library/dom": "^8.19.0",
+		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/react": "^13.4.0",
+		"@testing-library/user-event": "^14.4.3",
+		"@types/react": "^18.0.15",
+		"@types/react-dom": "^18.0.6",
+		"@vitejs/plugin-react": "^2.1.0",
+		"eslint": "^8.23.1",
+		"jsdom": "^20.0.1",
+		"typescript": "^4.7.4",
+		"vite": "^3.1.8",
+		"vite-tsconfig-paths": "^3.5.1",
+		"vitest": "^0.24.3"
+	},
+	"engines": {
+		"node": ">=14"
+	},
+	"author": {
+		"name": "Lukas Alvarez",
+		"url": "https://github.com/lukasalvarezdev",
+		"email": "lukasalvarezdev@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lukasalvarezdev/remix-form-library"
+	}
+}
