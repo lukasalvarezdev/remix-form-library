@@ -7,3 +7,5 @@
 .npmignore
 .npmrc
 tsconfig.json
+/examples
+vitest.config.ts
