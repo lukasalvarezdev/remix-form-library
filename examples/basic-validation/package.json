@@ -20,7 +20,7 @@
 		"isbot": "^3.5.4",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
-		"remix-form-library": "^0.0.3",
+		"remix-form-library": "^0.0.4",
 		"zod": "^3.19.1"
 	},
 	"devDependencies": {

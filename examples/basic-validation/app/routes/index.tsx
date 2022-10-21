@@ -2,7 +2,7 @@ import type { ActionArgs } from '@remix-run/node';
 import { json } from '@remix-run/node';
 import { Form } from '@remix-run/react';
 import { z } from 'zod';
-import { useServerInput } from 'remix-form-builder';
+import { useServerInput } from 'remix-form-library';
 
 export async function action({ request }: ActionArgs) {
 	const form = await request.formData();

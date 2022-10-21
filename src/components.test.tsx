@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import type { MockedFunction } from 'vitest';
@@ -67,7 +68,6 @@ describe('form library components', () => {
 		expect(screen.queryByText(/name is already taken/i)).toBeInTheDocument();
 
 		await userEvent.type(input, 'a');
-		screen.debug();
 
 		expect(screen.queryByText(/name must be at least 3 characters/i)).toBeInTheDocument();
 
