@@ -48,5 +48,13 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/lukasalvarezdev/remix-form-library"
-	}
+	},
+	"keywords": [
+		"remix",
+		"react",
+		"form",
+		"library",
+		"zod",
+		"typescript"
+	]
 }
