@@ -1,6 +1,6 @@
 {
 	"name": "remix-form-library",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"sideEffects": false,
 	"browser": "./browser/index.js",
 	"main": "./build/index.js",
